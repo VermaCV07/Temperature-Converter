@@ -2,8 +2,6 @@ var cel = document.getElementById("cel");
 var fah = document.getElementById("fah");
 
 cel.addEventListener('input',function(){
-    // console.log("cel changed");
-
     let c = this.value;
     let f = (c * 9/5) + 32;
     if(!Number.isInteger(f)){
@@ -13,7 +11,6 @@ cel.addEventListener('input',function(){
 });
 
 fah.addEventListener('input',function(){
-    // console.log("fah changed");
     let f = this.value;
     let c = (f - 32) * 5/9;
     if(!Number.isInteger(c)){
