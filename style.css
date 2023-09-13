@@ -16,23 +16,18 @@ body{
     align-items: center;
     justify-content: center;
     align-content: center;
-    
 }
-
 .main h1{
     color:rgb(39, 13, 63);
     padding: 3px 2px;
     border-bottom: 1px solid rgb(39, 13, 63);
-    /* text-shadow: 2px 0px 5px purple; */
 }
-
 .input-div{
     text-align: center;
     padding: 50px;
     background-color: rgb(39, 13, 63);
     box-shadow: 2px 0px 5px purple;
 }
-
 label{
     color: yellow;
     font-size: 22px;
